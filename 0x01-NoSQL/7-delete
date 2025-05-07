@@ -1,0 +1,2 @@
+// MongoDB script to delete all documents with name="ALX School" in collection school
+db.school.deleteMany({ name: "ALX School" })

@@ -1,0 +1,2 @@
+// MongoDB script to create or use the my_db database
+use my_db

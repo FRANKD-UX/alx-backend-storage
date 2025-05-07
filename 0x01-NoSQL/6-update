@@ -1,0 +1,6 @@
+// MongoDB script to update documents with name="Holberton school", adding address
+db.school.update(
+  { name: "Holberton school" },
+  { $set: { address: "972 Mission street" } },
+  { multi: true }
+)
